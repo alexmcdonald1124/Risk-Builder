@@ -5,12 +5,12 @@ import threatconnect
 from datetime import datetime, timedelta
 
 # Define configuration file
-config_file = json.load(open('config.json'))
+config_file = json.load(open('configs/config.json'))
 
 investigate_api = config_file['investigate_api']
 inv = investigate.Investigate(investigate_api)
 
-ips = ['45.55.156.41']
+ips = []
 
 vetted_ips = []
 
