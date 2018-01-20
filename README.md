@@ -1,4 +1,6 @@
-# A script for checking IP addresses against multiple data sources to build a risk score.
+# Risk Builder
+
+A script for checking IP addresses against multiple data sources to build a risk score.
 
 ## Setup
 
